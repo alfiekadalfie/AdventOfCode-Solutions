@@ -1,27 +1,21 @@
-sum = 0
-game = 1
+sum = 0         
+game = 1    # Game number
+
+# Part 1
+
+# how many of each originally
 red = 12
 green = 13
 blue = 14
+
 passed = True
 
 red_count = 0
 green_count = 0
 blue_count = 0
 
-red_list = []
-green_list = []
-blue_list = []
-
-'''# Part 1
 for line in open("day2input-2023.txt", 'r'):
-    #print(line.strip("\n").split(":"))
-
-    line = line.strip("\n").split(": ")
-
-    line = line[1].split("; ") 
-
-    #print(line)
+    line = line.strip("\n").split(": ")[1].split("; ")
 
     for i in line:
         for j in i.split(", "):
@@ -35,29 +29,31 @@ for line in open("day2input-2023.txt", 'r'):
             if(red_count > red or green_count > green or blue_count > blue):
                 passed = False
             
+            # reset
             red_count = 0
             green_count = 0
             blue_count = 0
 
     if(passed):
         sum += game
-        
+    
+    # reset/update
     passed = True
     game+=1
 
-print(sum)
-'''
+print("Part 1 Answer: " + str(sum))
+
 
 # Part 2
 for line in open("day2input-2023.txt", 'r'):
-    #print(line.strip("\n").split(":"))
+    line = line.strip("\n").split(": ")[1].split("; ")
 
-    line = line.strip("\n").split(": ")
+    # how many of each color in each game?
+    red_list = []
+    green_list = []
+    blue_list = []
 
-    line = line[1].split("; ") 
-
-    #print(line)
-
+    # add to respective list for each game
     for i in line:
         for j in i.split(", "):
             if(j.split(" ")[1][0] == 'r'):
@@ -67,11 +63,15 @@ for line in open("day2input-2023.txt", 'r'):
             elif(j.split(" ")[1][0] == 'b'):
                 blue_list.append(int(j.split(" ")[0]))
 
+    # power of largest number for RGB
     sum += max(red_list) * max(green_list) * max(blue_list)
     
+    # reset
     red_list = []
     green_list = []
     blue_list = []
+
+    # update
     game+=1
 
-print(sum)
+print("Part 2 Answer: " + str(sum))
