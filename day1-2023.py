@@ -1,10 +1,8 @@
-start = 0
-end = 0
-sum = 0
+start = 0   # index of first number
+end = 0     # index of last number
+sum = 0     # sum of all 'first + last'
 
-recentIndex = 0
-
-'''# Part 1
+# Part 1
 for line in open("day1input-2023.txt", 'r'):
     for i in line:
         if(i.isnumeric()):
@@ -17,9 +15,10 @@ for line in open("day1input-2023.txt", 'r'):
     
     sum += int(str(start) + str(end))
 
-print(sum)
-'''
+print("Part 1 Answer: " + str(sum))
+
 # Part 2
+# helper to find first 'number'
 def findFirstNumber(line):
     i = 0
     while i < len(line):
@@ -71,6 +70,8 @@ def findFirstNumber(line):
         
         i+=1
 
+# helper to find last 'number'
+# index takes in recentIndex
 def findLastNumber(line, index):
     i = index
     while i < len(line):
@@ -114,14 +115,13 @@ def findLastNumber(line, index):
     
     return end
 
+# index following the first 'number'
+recentIndex = 0
 
 for line in open("day1input-2023.txt", 'r'):
-    #print(findFirstNumber(line))
-    #print(findLastNumber(line, recentIndex))
-
     start = str(findFirstNumber(line))
     end = str(findLastNumber(line, recentIndex))
 
     sum += int(start + end)
 
-print(sum)
+print("Part 2 Answer: " + str(sum))
