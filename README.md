@@ -1,2 +1,4 @@
 # AdventOfCode-Solutions
-My Advent of Code Solutions
+Not the best solutions, but gets the job done!
+
+All are coded in Python.
