@@ -1,5 +1,5 @@
 # AdventOfCode-Solutions
-Not the best <b>(Python)</b> solutions, but gets the job done!
+Not the best <b>(Python)</b> solutions, but gets the ⭐!
 
 <h2>Progress:</h2>
 <ul>
@@ -10,7 +10,7 @@ Not the best <b>(Python)</b> solutions, but gets the job done!
   <li><h3>Day 5  : </h3></li>
   <li><h3>Day 6  : ⭐⭐</h3></li>
   <li><h3>Day 7  : </h3></li>
-  <li><h3>Day 8  : </h3></li>
+  <li><h3>Day 8  : ⭐⭐</h3></li>
   <li><h3>Day 9  : </h3></li>
   <li><h3>Day 10 : </h3></li>
   <li><h3>Day 11 : </h3></li>
