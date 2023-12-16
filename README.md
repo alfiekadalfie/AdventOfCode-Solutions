@@ -1,9 +1,9 @@
 # AdventOfCode-Solutions
 Not the best <b>(Python)</b> solutions, but gets the ⭐!
 
-<h2>Progress:</h2>
+<h2>Progress: (2022/2023)</h2>
 <ul>
-  <li><h3>Day 1  : ⭐⭐</h3></li>
+  <li><h3>Day 1  : ⭐⭐/⭐⭐</h3></li>
   <li><h3>Day 2  : ⭐⭐</h3></li>
   <li><h3>Day 3  : </h3></li>
   <li><h3>Day 4  : ⭐⭐</h3></li>
