@@ -5,9 +5,9 @@ Not the best <b>(Python)</b> solutions, but gets the ⭐!
 <ul>
   <li><h3>Day 1  : ⭐⭐/⭐⭐</h3></li>
   <li><h3>Day 2  : ⭐⭐/⭐⭐</h3></li>
-  <li><h3>Day 3  : <t></t>/⭐⭐</h3></li>
+  <li><h3>Day 3  : _____/⭐⭐</h3></li>
   <li><h3>Day 4  : ⭐⭐/⭐⭐</h3></li>
-  <li><h3>Day 5  : /⭐⭐</h3></li>
+  <li><h3>Day 5  : _____/⭐⭐</h3></li>
   <li><h3>Day 6  : ⭐⭐</h3></li>
   <li><h3>Day 7  : </h3></li>
   <li><h3>Day 8  : ⭐⭐</h3></li>
