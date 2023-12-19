@@ -23,7 +23,7 @@ print("Part 1 Answer: " + str(trees))
 
 # Part 2
 total = 1
-answers = [0, 282, 0, 0, 0]
+answers = [0, trees, 0, 0, 0]
 
 # right 1, down 1
 trees = 0
